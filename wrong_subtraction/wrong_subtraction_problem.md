@@ -27,6 +27,7 @@ It is guaranteed that the result will be positive integer number.
 
 i.e.
 | input        | output |
+|--------------|--------|
 | 512 4        | 50     |
 | 1000000000 9 | 1      |
 
