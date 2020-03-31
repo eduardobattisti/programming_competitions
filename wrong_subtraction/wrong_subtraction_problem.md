@@ -41,9 +41,10 @@ If n ends with 0 you must divide it by 10, to eliminate the 0. If n ends with
 any number between 1-9 you must subtract 1. 
 Examples:
 
-n=256 k=5         |n=154 k=5
-result=251        |result=15
-
+| input | output |
+|-------|--------|
+|n=256 k=5|result=251|
+|n=154 k=5|result=15|
 
 REFERENCE:
 https://codeforces.com/contest/977/problem/A
