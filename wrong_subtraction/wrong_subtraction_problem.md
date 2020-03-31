@@ -37,8 +37,8 @@ The first example corresponds to the following sequence: 512→511→510→51→
   
 ###Explaining the problem:
 Giving a number n and a number k where k = number of times of the process.
-If n ends with 0 you must divide it by 10, to eliminate the 0. If n ends with
-any number between 1-9 you must subtract 1. 
+If n ends with 0 you must eliminate the 0. If n ends with any number between 
+1-9 you must subtract 1. 
 Examples:
 
 | input | output |
