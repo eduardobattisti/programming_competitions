@@ -17,13 +17,11 @@ result after all k subtractions.
 
 It is guaranteed that the result will be positive integer number.
 
-Input
-
+#### Input
 The first line of the input contains two integer numbers nand k (2≤n≤109, 1≤k≤50) — the number from 
 which Tanya will subtract and the number of subtractions correspondingly.
 
-Output
-
+#### Output
 Print one integer number — the result of the decreasing n by one k times.
 It is guaranteed that the result will be positive integer number. 
 
