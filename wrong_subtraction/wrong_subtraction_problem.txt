@@ -26,20 +26,11 @@ Print one integer number — the result of the decreasing n by one k times.
 It is guaranteed that the result will be positive integer number. 
 
 i.e.
-##########
-#input:  #
-#512 4   #
-#        #
-#output: #
-#50      #
-##########
-###############
-#input:       #
-#1000000000 9 #
-#             #
-#output:      #
-#50           #
-###############
+| input        | output |
+| ------------ | ------ |
+| 512 4        | 50     |
+| 1000000000 9 | 1      |
+| ------------ | ------ |
 
 Note
 The first example corresponds to the following sequence: 512→511→510→51→50.
