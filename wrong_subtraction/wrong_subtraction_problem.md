@@ -27,14 +27,22 @@ It is guaranteed that the result will be positive integer number.
 
 i.e.
 | input        | output |
-| ------------ | ------ |
 | 512 4        | 50     |
-| ------------ | ------ |
 | 1000000000 9 | 1      |
-| ------------ | ------ |
+
 
 Note
 The first example corresponds to the following sequence: 512→511→510→51→50.
+  
+###Explaining the problem:
+Giving a number n and a number k where k = number of times of the process.
+If n ends with 0 you must divide it by 10, to eliminate the 0. If n ends with
+any number between 1-9 you must subtract 1. 
+Examples:
+
+n=256 k=5         |n=154 k=5
+result=251        |result=15
+
 
 REFERENCE:
 https://codeforces.com/contest/977/problem/A
